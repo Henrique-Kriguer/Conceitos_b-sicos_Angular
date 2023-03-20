@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-segundo-componente',
+  templateUrl: './segundo-componente.component.html',
+  styleUrls: ['./segundo-componente.component.css']
+})
+export class SegundoComponenteComponent {
+
+    nome = "Henrique Kriguer";
+    dataNascimento = "1971-10-23"
+
+}
